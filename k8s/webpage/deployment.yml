@@ -9,6 +9,7 @@ kind: Deployment
 metadata:
   name: webpage
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: webpage
